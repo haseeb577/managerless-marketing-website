@@ -704,7 +704,8 @@ section {
 .feature-icon {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     transition: transform 0.3s ease;
     filter: drop-shadow(0 4px 8px rgba(74, 84, 50, 0.1));
     width: 80px;
