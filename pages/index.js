@@ -130,42 +130,42 @@ export default function Home() {
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">
-                <Image src="/assets/email.png" alt="Email" width={80} height={80} />
+                <Image src="/assets/email.png" alt="Email" width={80} height={80} unoptimized />
               </div>
               <h3 className="feature-title">All Your Emails in One Place</h3>
               <p className="feature-description">Stop switching between inboxes. See every brand email, partnership offer, and collaboration request in one spot.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
-                <Image src="/assets/track every deal.png" alt="Track Deal" width={80} height={80} />
+                <Image src="/assets/Track Deal.png" alt="Track Deal" width={80} height={80} unoptimized />
               </div>
               <h3 className="feature-title">Track Every Deal</h3>
               <p className="feature-description">From that first DM to getting paid. See where every partnership stands and what needs your attention.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
-                <Image src="/assets/ai pitch.png" alt="Pitch Builder" width={80} height={80} />
+                <Image src="/assets/ai pitch.png" alt="Pitch Builder" width={80} height={80} unoptimized />
               </div>
               <h3 className="feature-title">Pitch Builder</h3>
               <p className="feature-description">Get help writing pitches that actually work. We suggest rates based on your actual engagement, not random numbers.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
-                <Image src="/assets/negotiation.png" alt="Negotiation" width={80} height={80} />
+                <Image src="/assets/negotiation.png" alt="Negotiation" width={80} height={80} unoptimized />
               </div>
               <h3 className="feature-title">Negotiation Help</h3>
               <p className="feature-description">Get suggestions on how to ask for more. Because you deserve to get paid what you're worth.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
-                <Image src="/assets/analytics-icon.png" alt="Analytics" width={80} height={80} />
+                <Image src="/assets/analytics-icon.png" alt="Analytics" width={80} height={80} unoptimized />
               </div>
               <h3 className="feature-title">See Your Numbers</h3>
               <p className="feature-description">All your analytics in one dashboard. Know what's working so you can do more of it.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
-                <Image src="/assets/never miss the deadline.png" alt="Deadline" width={80} height={80} />
+                <Image src="/assets/never miss the deadline.png" alt="Deadline" width={80} height={80} unoptimized />
               </div>
               <h3 className="feature-title">Never Miss a Deadline</h3>
               <p className="feature-description">Keep track of what's due when. Set priorities and actually stay on top of your commitments.</p>
