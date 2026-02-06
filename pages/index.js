@@ -306,7 +306,7 @@ export default function Home() {
               />
               <button type="submit" className="btn btn-primary">Start Free Trial</button>
             </form>
-            <p className="cta-note">No credit card required • 14-day free trial</p>
+            <p className="cta-note">5-day free trial • Credit card required</p>
           </div>
         </div>
       </section>
