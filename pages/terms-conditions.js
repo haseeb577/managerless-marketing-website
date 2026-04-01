@@ -9,7 +9,6 @@ export default function TermsConditions() {
         <title>Terms and Conditions - Managerless</title>
         <meta name="description" content="Terms and Conditions for Managerless - Read our terms of service." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
