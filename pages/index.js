@@ -58,7 +58,6 @@ export default function Home() {
         <title>Managerless - Run Your Creator Business Without a Manager</title>
         <meta name="description" content="The platform that helps creators lock deals, negotiate rates, and grow their business. No manager, no middleman, just you." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
@@ -77,7 +76,12 @@ export default function Home() {
                 Because your creativity deserves a real system.
               </p>
               <div className="hero-buttons">
-                <a href="#contact" className="btn btn-primary" onClick={(e) => handleSmoothScroll(e, '#contact')}>
+                <a
+                  href="https://www.managerlesscreator.app/"
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Start Free Trial
                 </a>
                 <a href="#how-it-works" className="btn btn-secondary" onClick={(e) => handleSmoothScroll(e, '#how-it-works')}>
@@ -304,7 +308,14 @@ export default function Home() {
                 onChange={(e) => setEmail(e.target.value)}
                 required 
               />
-              <button type="submit" className="btn btn-primary">Start Free Trial</button>
+              <a
+                href="https://www.managerlesscreator.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Start Free Trial
+              </a>
             </form>
             <p className="cta-note">5-day free trial • Credit card required</p>
           </div>

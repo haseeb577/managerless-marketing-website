@@ -9,7 +9,6 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy - Managerless</title>
         <meta name="description" content="Privacy Policy for Managerless - Learn how we protect and handle your data." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
